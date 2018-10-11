@@ -6,7 +6,7 @@ variable "github_token" {
 # repo
 variable "repo" {
   description = "repo"
-  default     = "example"
+  default     = "example-kitchen"
 }
 
 # Configure the GitHub Provider
