@@ -1,5 +1,7 @@
 # terraform_kitchen_github_provider
 
+Kitchen test for Terraform GitHub provider
+
 ## Prerequisites: 
 
  * You need to have terraform installed
@@ -9,7 +11,15 @@
 
  * export your GitHub Organization name: 
 
-   ```export TF_VAR_github_organization=<your_github_organization_>```
+   ```export TF_VAR_github_organization=<your_github_organization> ```
+
+ * Clone this repository: 
+  
+  ``` git clone https://github.com/firedot/terraform_kitchen_github_provider.git ```
+
+ * Go into the cloned repo directory: 
+
+ ``` cd terraform_kitchen_github_provider ```
 
 ### The following steps are for MAC OS users: 
 
